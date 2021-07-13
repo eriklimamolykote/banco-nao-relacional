@@ -1,0 +1,8 @@
+(C) 2019, 2021 by Leonardo Moura Leitão and Cod3r Cursos.
+All rights reserved
+
+db.estados.remove({sigla: "AC"})
+
+db.estados.remove({populacao: {$exists: true}}, 1)
+
+db.estados.remove({populacao: {$lt: 20000000}})

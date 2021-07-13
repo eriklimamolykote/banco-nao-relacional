@@ -1,0 +1,11 @@
+(C) 2019, 2021 by Leonardo Moura Leitão and Cod3r Cursos.
+All rights reserved
+
+Estado 
+nome = São Paulo, sigla = SP, regiao = Sudeste
+    Cidades 
+    nome = Campinas, area = 795.7, prefeito = Jonas Donizette, populacao = 1081000
+    nome = Guarulhos, populacao = 1325800
+    nome = Sorocaba, distanciaCapital = 87, populacao = 644919
+
+Cada Cidade tem o atributo _id <- ObjectId    

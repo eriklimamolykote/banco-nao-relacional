@@ -1,0 +1,13 @@
+(C) 2019, 2021 by Leonardo Moura Leitão and Cod3r Cursos.
+All rights reserved
+
+db.empresas.insert({
+    nome: "Bradesco",
+    estadoId: ObjectId("60ed7a95e2f7f96baa4bdd54")
+})
+
+db.empresas.insert({
+    nome: "Vale",
+    cidadeId: ObjectId("60ed7a95e2f7f96baa4bdd53")
+})
+
